@@ -1,6 +1,9 @@
+import service.PatternService;
+
 public class Application {
 
     public static void main(String[] args){
-        System.out.println("Hello World !! ");
+        PatternService patternService = new PatternService();
+        patternService.run();
     }
 }
