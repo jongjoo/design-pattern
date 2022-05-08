@@ -1,7 +1,9 @@
 package pattern.strategy;
 
-public interface MovePosition {
+public interface Position {
 
     void move();
+
+    void stop();
 
 }

@@ -3,18 +3,15 @@ package pattern.strategy;
 public class StrategyPattern {
 
     public StrategyPattern() {
+        Car car = new Car();
+        Flight flight = new Flight();
 
-        Move fly = new Fly();
-        Move swimming = new Swimming();
+        car.setCarStrategy(new CarStrategy());
+        car.move();
+        car.stop();
 
-        fly.move();
-        swimming.move();
-
-        fly.setMsg("not Move");
-        swimming.setMsg("not Move");
-
-        fly.move();
-        swimming.move();
+        flight.setFlightStrategy(new FlightStrategy());
+        flight.move();
+        flight.stop();
     }
-
 }
