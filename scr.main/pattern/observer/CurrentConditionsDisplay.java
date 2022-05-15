@@ -1,13 +1,11 @@
 package pattern.observer;
 
-public class CurrentConditionsDisplay implements Observer, DisplayElement {
+public class CurrentConditionsDisplay implements Observer {
 
     private float temperature;
     private float humidity;
-    private WeatherData weatherData;
 
     public CurrentConditionsDisplay(WeatherData weatherData) {
-        this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 

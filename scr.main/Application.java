@@ -19,9 +19,9 @@ public class Application {
 
     public static void guidePrint(){
         System.out.println(" ** 패턴을 선택하세요. (종료는 0) ** \n" +
-                "1 - 전략패턴 \n" +
-                "2 - 옵저버패턴 \n" +
-                "3 - \n" +
+                "1 - 전략 패턴 \n" +
+                "2 - 옵저버 패턴 \n" +
+                "3 - 데코레이션 패턴\n" +
                 "4 - \n");
     }
 

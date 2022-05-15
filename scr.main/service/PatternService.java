@@ -1,5 +1,6 @@
 package service;
 
+import pattern.decorator.Starbucks;
 import pattern.observer.WeatherStation;
 import pattern.strategy.StrategyPattern;
 
@@ -14,7 +15,7 @@ public class PatternService {
                 new WeatherStation();
             }
             case "3" -> {
-
+                new Starbucks();
             }
             case "4" -> {
 
