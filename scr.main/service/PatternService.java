@@ -1,6 +1,7 @@
 package service;
 
 import pattern.decorator.Starbucks;
+import pattern.factory.method.PizzaDrive;
 import pattern.observer.WeatherStation;
 import pattern.strategy.StrategyPattern;
 
@@ -18,7 +19,7 @@ public class PatternService {
                 new Starbucks();
             }
             case "4" -> {
-
+                new PizzaDrive();
             }
             default -> {
 
