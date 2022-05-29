@@ -10,3 +10,5 @@
 ## 데코레이터 패턴
 - https://joojoo29.notion.site/Decorator-Pattern-d627e6005d8146ea8a640faba983d289
 
+## 팩토리 메서드 패턴, 추상 팩토리 패턴
+- https://joojoo29.notion.site/Factory-Method-Pattern-228274366c0b48f2b95a9a9d35d192e9
