@@ -12,3 +12,7 @@
 
 ## 팩토리 메서드 패턴, 추상 팩토리 패턴
 - https://joojoo29.notion.site/Factory-Method-Pattern-228274366c0b48f2b95a9a9d35d192e9
+
+
+## 싱글톤 패턴
+- https://joojoo29.notion.site/Singleton-Pattern-f537b0f9ea3544c6a8f047c2c82af90e
