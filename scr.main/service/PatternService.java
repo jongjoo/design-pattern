@@ -1,5 +1,6 @@
 package service;
 
+import pattern.command.remote.RemoteLoader;
 import pattern.decorator.Starbucks;
 import pattern.factory.method.PizzaDrive;
 import pattern.observer.WeatherStation;
@@ -20,6 +21,9 @@ public class PatternService {
             }
             case "4" -> {
                 new PizzaDrive();
+            }
+            case "5" -> {
+                new RemoteLoader();
             }
             default -> {
 
