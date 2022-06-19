@@ -1,5 +1,6 @@
 package service;
 
+import pattern.command.remote.RemoteLoader;
 import pattern.decorator.Starbucks;
 import pattern.facade.HomeTheaterTestDrive;
 import pattern.factory.method.PizzaDrive;
@@ -23,7 +24,7 @@ public class PatternService {
                 new PizzaDrive();
             }
             case "5" -> {
-
+                new RemoteLoader();
             }
             case "6" -> {
                 new HomeTheaterTestDrive();
