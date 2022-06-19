@@ -1,13 +1,14 @@
 package service;
 
 import pattern.decorator.Starbucks;
+import pattern.facade.HomeTheaterTestDrive;
 import pattern.factory.method.PizzaDrive;
 import pattern.observer.WeatherStation;
 import pattern.strategy.StrategyPattern;
 
 public class PatternService {
 
-    public void run(String input){
+    public void run(String input) {
         switch (input) {
             case "1" -> {
                 new StrategyPattern();
@@ -20,6 +21,12 @@ public class PatternService {
             }
             case "4" -> {
                 new PizzaDrive();
+            }
+            case "5" -> {
+
+            }
+            case "6" -> {
+                new HomeTheaterTestDrive();
             }
             default -> {
 

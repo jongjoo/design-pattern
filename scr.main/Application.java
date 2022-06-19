@@ -22,7 +22,9 @@ public class Application {
                 "1 - 전략 패턴 \n" +
                 "2 - 옵저버 패턴 \n" +
                 "3 - 데코레이션 패턴\n" +
-                "4 - 팩토리 패턴\n");
+                "4 - 팩토리 패턴\n" +
+                "5 - 패턴\n" +
+                "6 - 퍼사드 패턴\n");
     }
 
     public static String ScanningText() {
