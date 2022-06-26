@@ -24,3 +24,6 @@
 
 ## 퍼사드 패턴
 - https://joojoo29.notion.site/Facade-Pattern-73ae863781894cfb9681dcacdbec217c
+
+## 템플릿 메소드 패턴
+- https://joojoo29.notion.site/Template-Method-Pattern-0966de1b8b6742a0ac69db1908cfe9ae
