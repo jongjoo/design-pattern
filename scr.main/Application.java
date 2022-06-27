@@ -8,7 +8,7 @@ public class Application {
 
         while (true) {
             guidePrint();
-            String input = ScanningText();
+            String input = scanningText();
             if ("0".equals(input)) {
                 return;
             }
@@ -33,7 +33,7 @@ public class Application {
         System.out.println(stringBuilder);
     }
 
-    public static String ScanningText() {
+    public static String scanningText() {
         Scanner scanner = new Scanner(System.in);
         return scanner.next();
     }
