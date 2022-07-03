@@ -31,6 +31,7 @@ public class Application {
         stringBuilder.append("7-2 - 템플릿 메소드 패턴 (JFrame) \n");
         stringBuilder.append("8 - 반복자 패턴 \n");
         stringBuilder.append("8-1 - 반복자 패턴 Iterator\n");
+        stringBuilder.append("9 - 복합체 패턴\n");
 
         System.out.println(stringBuilder);
     }
