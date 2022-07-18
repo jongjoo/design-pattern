@@ -27,3 +27,7 @@
 
 ## 템플릿 메소드 패턴
 - https://joojoo29.notion.site/Template-Method-Pattern-0966de1b8b6742a0ac69db1908cfe9ae
+
+## 상태 패턴
+- https://joojoo29.notion.site/State-Pattern-5ceb5f40944f4fddb3274ee1b14ab3cb
+

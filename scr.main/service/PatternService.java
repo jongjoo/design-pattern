@@ -2,12 +2,12 @@ package service;
 
 import pattern.command.remote.RemoteLoader;
 import pattern.composite.MenuTestDrive;
-import pattern.composite.Waitress;
 import pattern.decorator.Starbucks;
 import pattern.facade.HomeTheaterTestDrive;
 import pattern.factory.method.PizzaDrive;
 import pattern.iterator.refact.WaitressRefact;
 import pattern.observer.WeatherStation;
+import pattern.state.GumballMachineTwoTestDrive;
 import pattern.strategy.StrategyPattern;
 import pattern.template.hook.BeverageTestDrive;
 import pattern.template.javaapi.DuckSortTestDrive;
@@ -29,6 +29,7 @@ public class PatternService {
             case "8" -> new pattern.iterator.Waitress();
             case "8-1" -> new WaitressRefact();
             case "9" -> new MenuTestDrive();
+            case "10" -> new GumballMachineTwoTestDrive();
             default -> {
 
             }
