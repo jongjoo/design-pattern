@@ -31,3 +31,5 @@
 ## 상태 패턴
 - https://joojoo29.notion.site/State-Pattern-5ceb5f40944f4fddb3274ee1b14ab3cb
 
+## 프록시 패턴
+- https://joojoo29.notion.site/Proxy-Pattern-243a22e49f8b48eb9252497fb728e3f7
