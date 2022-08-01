@@ -1,10 +1,11 @@
 import service.PatternService;
 
+import java.rmi.RemoteException;
 import java.util.Scanner;
 
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         while (true) {
             guidePrint();
@@ -33,6 +34,8 @@ public class Application {
         stringBuilder.append("8-1 - 반복자 패턴 Iterator\n");
         stringBuilder.append("9 - 복합체 패턴\n");
         stringBuilder.append("10 - 상태 패턴\n");
+        stringBuilder.append("11 - 프록시 패턴\n");
+        stringBuilder.append("12 - 복합 패턴 (오리)\n");
 
         System.out.println(stringBuilder);
     }

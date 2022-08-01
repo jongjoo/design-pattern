@@ -2,6 +2,8 @@ package service;
 
 import pattern.command.remote.RemoteLoader;
 import pattern.composite.MenuTestDrive;
+import pattern.compound.dj.DJTestDrive;
+import pattern.compound.duck.DuckSimulator;
 import pattern.decorator.Starbucks;
 import pattern.facade.HomeTheaterTestDrive;
 import pattern.factory.method.PizzaDrive;
@@ -15,7 +17,7 @@ import pattern.template.javaapi.MyFrame;
 
 public class PatternService {
 
-    public void run(String input) {
+    public void run(String input) throws Exception {
         switch (input) {
             case "1" -> new StrategyPattern();
             case "2" -> new WeatherStation();
@@ -30,6 +32,8 @@ public class PatternService {
             case "8-1" -> new WaitressRefact();
             case "9" -> new MenuTestDrive();
             case "10" -> new GumballMachineTwoTestDrive();
+            case "12" -> new DuckSimulator();
+            case "12-1" -> new DJTestDrive();
             default -> {
 
             }
